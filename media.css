@@ -1,0 +1,44 @@
+body{
+    background-color: #dcedc8;
+}
+
+header {
+    background-color: #33691e;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    color: #ccff90;
+    letter-spacing: 0.1em;
+}
+
+h3 {
+    font-weight: 1000;
+    color: #33691e;
+}
+
+h4 {
+    font-weight: bold;
+    color: #33691e;
+    font-family: monospace;
+
+}
+
+h6 {
+    text-align: justify;
+    font-style: italic;
+    font-weight: 600;
+}
+
+p  {
+    font-weight: 500;
+    font-style: italic;
+}
+
+span {
+    font-weight: 500;
+    font-size:larger;
+    font-family: cursive;
+}

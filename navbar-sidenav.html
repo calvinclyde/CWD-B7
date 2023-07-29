@@ -1,0 +1,404 @@
+<!-- Calvin Clyde P. Valencia Batch 7 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font-awesome cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/2c37e56602.js" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="navbar-sidenav.css">
+
+    <title>NAVBAR & SIDENAV</title>
+</head>
+    <!--Fixed Navbar-->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper black">
+            <a href="" class="brand-logo center"><i class="fa-brands fa-google-drive fa-lg"></i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="">Support</a></li>
+                <li><a href="">Settings</a></li>
+                <li><a href="">Google Apps</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+<body>
+    <header>
+
+        <h1> NAVBAR & SIDENAV</h1>
+    </header>
+    <br><br>
+    <div class="container">
+        <h6>The navbar is fully contained by an HTML5 Nav tag. Inside a recommended container div, there are 2 main parts of the navbar. A logo or brand link, and the navigations links. You can align these links to the left or right.</h6>
+    </div>
+    <br><br>
+    <div class="container">
+
+        <!--Right Aligned-->
+        <h3>Right Aligned Links</h3>
+        <p>To right align your navbar links, just add a right class to your <'ul'> that contains them.</p>
+        <nav class="light-blue">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href=""
+                    class="brand-logo">
+                    <i class="fa-brands fa-skype fa-lg"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="">Chats</a>
+                        </li>
+                        <li>
+                            <a href="">Calls</a>
+                        </li>
+                        <li>
+                            <a href="">Contacts</a>
+                        </li>
+                        <li>
+                            <a href="">Notifications</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <br><br>
+    <div class="container">
+
+        <!--Left Aligned-->
+        <h3>Left Aligned Links</h3>
+        <p>To left align your navbar links, just add a left class to your <'ul'> that contains them.</p>
+        <nav class="light-green">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href=""
+                    class="brand-logo right">
+                    <i class="fa-brands fa-weixin fa-lg"></i>
+                    </a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li>
+                            <a href="">Chats</a>
+                        </li>
+                        <li>
+                            <a href="">Calls</a>
+                        </li>
+                        <li>
+                            <a href="">Contacts</a>
+                        </li>
+                        <li>
+                            <a href="">Notifications</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <br><br>
+    <div class="container">
+
+        <!--Center Aligned-->
+        <h3>Centering the Logo</h3>
+        <p>The logo will center itself on medium and down screens, but if you want the logo to always be centered, add the center class to your < a class="brand-logo" >. You will have to make sure yourself that links do not overlap if you use this.</p>
+        <nav class="white">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href=""
+                    class="brand-logo center black-text">
+                    <i class="fa-brands fa-microsoft fa-lg"></i>
+                    </a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li>
+                            <a><i class="fa-solid fa-bars grey-text"></i></a>
+                        </li>
+                        <li>
+                            <a><i class="fa-solid fa-magnifying-glass grey-text"></i></a>
+                        </li>
+                    </ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a><i class="fa-solid fa-user-plus grey-text"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <br><br>
+    <div class="container">
+
+        <!--Active Items-->
+        <h3>Active Items</h3>
+        <P>Add active class to your li tags to denote the current page.</P>
+        <nav class="deep-purple accent-4">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href=""
+                    class="brand-logo">
+                    <i class="fa-brands fa-discord fa-lg"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="">Friends</a>
+                        </li>
+                        <li class="active">
+                            <a href="">Online</a>
+                        </li>
+                        <li>
+                            <a href="">Pending</a>
+                        </li>
+                        <li>
+                            <a href="">Blocked</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <br><br>
+    <div class="container">
+
+        <!--Navbar wih Tabs-->
+        <h3>Extended Navbar with Tabs</h3>
+        <P>To add extended components to the navbar, add the class nav-extended to the outer nav tag. This will allow your navbar height to be variable. Then you can just include a tabs component inside the nav-wrapper.</P>
+        <nav class="red accent-4 nav-extended">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href=""
+                    class="brand-logo center">
+                    <i class="fa-brands fa-youtube fa-lg"></i>
+                    </a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li>
+                            <a><i class="fa-solid fa-bars"></i></a>
+                        </li>
+                        <li>
+                            <a><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                    </ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a><i class="fa-solid fa-user-plus"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab">
+                        <a href="#all">All</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#music">Music</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#gaming">Gaming</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#live">Live</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#news">News</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>                    
+    </div>
+    <br><br>
+    <div class="container">
+
+        <!--Fixed Navbar-->
+        <h3>Fixed Navbar</h3>
+        <p>To make the navbar fixed, you have to add an outer wrapping div with the class navbar-fixed. This will offset your other content while making your nav fixed. You can adjust the height of this outer div to change how much offset is on your content.</p>
+    </div>
+    <br><br> 
+    <div class="container">
+
+        <!--Icon Links-->
+        <h3>Icon Links</h3>
+        <p>You can add icons into links. For icon only links you don't need any additional class. Just pop the i tag in and it will work.</p>
+        <nav class="teal darken-4">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href=""
+                    class="brand-logo">
+                    <i class="fa-brands fa-google-play fa-lg"></i>Playstore
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href=""><i class="fa-solid fa-gamepad"> Games</i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-solid fa-book"> Books</i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <br><br>
+    <div class="container">
+
+        <!--Buttons-->
+        <h3>Buttons</h3>
+        <p>You can add buttons into links. For buttons you don't need any additional class. Just pop the .btn class on the a tag or add a halfway FAB to your extended navbar.</p>
+        <nav>
+            <div class="nav-wrapper light-blue">
+                <div class="container">
+                    <a href="" class="brand-logo"><i class="fa-brands fa-internet-explorer fa-lg" style="color: #ffffff;"></i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="waves-effect waves-light btn" style="background-color: #0d47a1;">Features</a></li>
+                    <li><a class="waves-effect waves-light btn" style="background-color: #0d47a1;">User</a></li>
+                    <li><a class="waves-effect waves-light btn-large" style="background-color: #0d47a1;">Settings</a></li>
+                </ul>
+                </div>           
+            </div>
+        </nav> 
+    </div>
+    <br>
+    <div class="container">
+    <nav class="nav-extended">
+        <div class="nav-wrapper blue darken-4">   
+        <a href="#!" class="brand-logo"><i class="fa-brands fa-internet-explorer fa-lg" style="color: #ffffff;"></i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a>A link</a></li>
+            <li><a>A second link</a></li>
+            <li><a>A third link</a></li>
+        </ul>
+        </div>
+        <div class="nav-content">
+        <span class="nav-title">Internet Explorer</span>
+        <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal">
+            <i class="material-icons"><i class="fa-solid fa-plus"></i></i>
+        </a>
+        </div>
+    </div>
+    </nav>
+    <br><br>
+    <div class="container">
+
+        <!--Search Bar-->
+        <h3>Search Bar</h3>
+        <p>You can add a search form in the navbar.</p>
+
+        <nav>
+            <div class="nav-wrapper" style="background-color: #ffd54f;">
+                <form>
+                    <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label class="label-icon" for="search"><i class="material-icons"><i class="fa-solid fa-magnifying-glass"></i></i></label>
+                    <i class="material-icons"><i class="fa-solid fa-x"></i></i>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </div>
+        <br><br>
+        <div class="container">
+
+        <!--Dropdown Structure-->
+        <h3>Navabar Dropdown Menu</h3>
+        <p>To add a navbar dropdown menu, add the ul dropdown structure into the page. Then, add an element to trigger the dropdown menu. Make sure to supply the id of the dropdown structure to the data-target attribute of the dropdown trigger.</p>
+
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">User 1</a></li>
+            <li><a href="#!">User 2</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">User 3</a></li>
+            </ul>
+            <nav class="background-color light-blue">
+            <div class="container" class="nav-wrapper">
+                <a href="" class="brand-logo">Messenger</i></i></a>
+                <ul class="right hide-on-med-and-down">
+                <li><a href="">Chats</a></li>
+                <li><a href="">Message requests</a></li>
+
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Account<i class="material-icons right"><i class="fa-solid fa-caret-down"></i></i></a></li>
+                </ul>
+            </div>
+            </nav>
+            </div>
+
+            <br><br>
+            <div class="container">
+    
+            <!--Mobile Collapse Button-->
+            <h3>Mobile Collapse Button</h3>
+            <p>When your nav bar is resized, you will see that the links on the right turn into a hamburger icon. Take a look at the example below to get this functionality. Add the entire sidenav-trigger line to your nav.</p>
+
+                <nav style="background-color: #880e4f;">
+                    <div class="container" class="nav-wrapper">
+                        <a href="" class="brand-logo">Instragram</a>
+                        <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"><i class="fa-solid fa-bars"></i></i></a>
+                        <ul class="right hide-on-med-and-down">
+                        <li><a href=""><i class="fa-brands fa-instagram fa-xl"></i></i></a></li>
+                        <li><a href="">Followers</a></li>
+                        <li><a href="">Following</a></li>
+                        <li><a href=""><i class="fa-solid fa-gear fa-lg"></i></a></li>
+                        </ul>
+                    </div>
+                    </nav>
+                
+                    <ul class="sidenav" id="mobile-demo">
+                    <li><a href=""><i class="fa-brands fa-instagram fa-lg" style="color: #b12ba5;"></i></a></li>
+                    <li><a href="">Followers</a></li>
+                    <li><a href="">Following</a></li>
+                    <li><a href="">Settings</a></li>
+                    </ul>
+            </div>
+
+    <br><br>
+    <div class="container">
+            
+    <!--Sidenav-->
+    <h3>Sidenav</h3>
+    <p>This is a slide out menu. You can add a dropdown to your sidebar by using our collapsible component. If you want to see a demo, our sidebar will use this on smaller screens. To use this in conjunction with a fullscreen navigation, you have to use two copies of the same UL.</p>
+
+    <ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+    <div class="background">
+        <img src="image/sidenav1.jpg">
+    </div>
+    <a href=""><img class="circle" src="image/sidenav2.jpg"></a>
+    <a href=""><span class="white-text name">Clyde Valencia</span></a>
+    <a href=""><span class="white-text email">calvincv14@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons"><i class="fa-solid fa-user fa-lg"></i></i>Personal Information</a></li>
+    <li><a href="#!">Creative Web Design</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Contact Number</a></li>
+    <li><a class="waves-effect" href="#!">09912345678</a></li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger btn"><i class="material-icons"><i class="fa-solid fa-user fa-lg"></i></i></a>
+
+    <div style="height: 50px;"></div>
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        //Dropdown Menu
+        $(".dropdown-trigger").dropdown({ hover: false }); });
+
+        //Moblie Collapse
+        //with jQuery
+        $(document).ready(function(){
+        $('.sidenav').sidenav();});
+
+    </script>
+</body>
+</html>

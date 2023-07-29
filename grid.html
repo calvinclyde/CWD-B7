@@ -1,0 +1,119 @@
+<!-- Calvin Clyde P. Valencia Batch 7 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="grid.css">
+    <title>GRID</title>
+</head>
+<body>
+    <header>
+        <h1> G R I D </h1>
+    </header>
+    <br><br>
+    <div class="container">
+    <h6>We are using a standard 12 column fluid responsive grid system. The grid helps you layout your page in an ordered, easy fashion</h6>
+
+    <br><br>
+    <!--CONTAINER-->
+    <h3>Container</h3>
+        <p>The container class is not strictly part of the grid but is important in laying out content. It allows you to center your page content. The container class is set to ~70% of the window width. It helps you center and contain your page content. We use the container to contain our body content.</p> <br>
+        <p>To add a container just put your content inside a < div > tag with a container class. Here's an example of how your page might be set up.
+        </p>
+        </div>
+
+    <div class="container">
+        <!--INTRODUCTION-->
+        <h3>Introduction</h3>
+        <h4>12 Columns</h4>
+        <p>Our standard grid has 12 columns. No matter the size of the browser, each of these columns will always have an equal width.</p>
+        <br>
+        <div class="row center">
+            <div class="col s1 grid red"><span class="flow-text">1</span></div>
+            <div class="col s1 grid orange"><span class="flow-text">2</span></div>
+            <div class="col s1 grid yellow"><span class="flow-text">3</span></div>
+            <div class="col s1 grid green"><span class="flow-text">4</span></div>
+            <div class="col s1 grid blue"><span class="flow-text">5</span></div>
+            <div class="col s1 grid indigo"><span class="flow-text">6</span></div>
+            <div class="col s1 grid purple"><span class="flow-text">7</span></div>
+            <div class="col s1 grid red"><span class="flow-text">8</span></div>
+            <div class="col s1 grid orange"><span class="flow-text">9</span></div>
+            <div class="col s1 grid yellow"><span class="flow-text">10</span></div>
+            <div class="col s1 grid green"><span class="flow-text">11</span></div>
+            <div class="col s1 grid blue"><span class="flow-text">12</span></div>
+            
+        </div>
+        <br>
+        <p>To get a feel of how the grid is used in HTML, take a look at the code below which will produce a similar result to the one above.</p>
+        <br>
+        <h4>Columns live inside Rows</h4>
+        <p>Remember when you are creating your layout that all columns must be contained inside a row and that you must add the col class to your inner divs to make them into columns</p>
+        <br>
+        <div class="row center">
+            <div class="col s12 grid pink accent-1"><span class="flow-text">The div is 12-columns wide on all screen sizes</span></div>
+            <div class="col s6 grid pink accent-2"><span class="flow-text">6-columns (one-half)</span></div>
+            <div class="col s6 grid pink accent-3"><span class="flow-text">6-columns (one-half)</span></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!--OFFSETS-->
+        <h3>Offsets</h3>
+        <p>To offset, simply add offset-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to offset by.</p>
+
+        <div class="row center">
+            <div class="col s12 orange accent-2"><span class="flow-text">This div is 12-columns wide on all screen sizes</span></div>
+            <div class="col s6 offset-s6 orange accent-1"><span class="flow-text">6-columns (offset-by-6)</span></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!--PUSH AND PULL-->
+        <h3>Push and Pull</h3>
+        <p>You can easily change the order of your columns with push and pull. Simply add push-s2 or pull-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to push or pull by.</p>
+
+        <div class="row center">
+            <div class="col s7 push-s5 yellow "><span style="font-size: 14px; ">This div is 7-columns wide on pushed to the right by 5-columns.</span></div>
+            <div class="col s5 pull-s7 yellow accent-1"><span style="font-size: 14px;">5-columns wide pulled to the left by 7-columns.</span></div>
+        </div>
+    </div>
+
+    <div class="container">
+            <!--CREATING LAYOUT-->
+            <h3>Creating Layouts</h3>
+            <p>Here we will show you how to create some commonly used layouts with our grid system. Hopefully these will get you more comfortable with laying out elements. To keep these demos simple, the ones here will not be responsive.</p>
+
+            <div class="row">
+                <div class="col s12 m6">
+                <h4>Section</h4>
+                <p>The section class is used for simple top and bottom padding. Just add the section class to your div's containing large blocks of content.</p>
+            </div>
+            <div class="col s12 m6">
+                <h4>Divider</h4>
+                <p>Dividers are 1 pixel lines that help break up your content. Just add the divider to a div in between your content.</p>
+            </div>
+
+            <div class="divider"></div>
+            <div class="section">
+                <h5>Section 1</h5>
+                <p>Stuff</p>
+            </div>
+            <div class="divider"></div>
+            <div class="section">
+                <h5>Section 2</h5>
+                <p>Stuff</p>
+            </div>
+            <div class="divider"></div>
+            <div class="section">
+                <h5>Section 3</h5>
+                <p>Stuff</p>
+            </div>
+    </div>
+</html>
